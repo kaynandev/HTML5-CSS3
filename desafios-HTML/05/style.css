@@ -1,0 +1,29 @@
+h1 {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+}
+
