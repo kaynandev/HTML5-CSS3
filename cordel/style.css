@@ -44,3 +44,9 @@ a:hover{
     
     text-decoration: underline;
 }
+
+main {
+    font-family: sriracha;
+    font-size: 0.9em;
+    text-align: left;
+}
