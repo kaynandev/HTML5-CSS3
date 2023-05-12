@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="iest">estado</label>
+            <select name="est" id="iest">
+                <optgroup>
+                    <option value="SP">São paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">MInas Gerais</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="it">trabalho</label>
+            <input type="text" name="t" id="it" list="itr">
+            <datalist id="itr">
+                <option value="DEV">desenvolvedor</option>
+                <option value="ADM">administrador</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="ims">mensagem</label><br>
+            <textarea name="msg" id="ims" cols="10" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
