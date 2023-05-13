@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*versão para impressora*/
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+header nav{
+    display: none;
+}
+
